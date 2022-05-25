@@ -33,8 +33,10 @@ public class Main {
         track1.checkTrailer();
         System.out.println("-----------------------------------------");
 
-        TransportVehicle car = new TransportVehicle("Porsche 356", 4);
-        car.check();
+
+        Services servic1 = new Car("Porsche 356", 4);
+        servic1.check();
+
 
 
     }

@@ -1,6 +1,6 @@
 package ru.skypro;
 
-public class TransportVehicle implements Services {
+public abstract class  TransportVehicle implements Services {
 
     private String modelName;
     private int wheelsCount;
@@ -19,10 +19,7 @@ public class TransportVehicle implements Services {
     }
 
 
-    public void check() {
-        System.out.println("Обслуживаем " + getModelName() + ".");
-
-    }
+    public abstract void check();
 }
 
 

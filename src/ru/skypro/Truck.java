@@ -34,5 +34,9 @@ public class Truck extends TransportVehicle implements ServicesWheelsAndTrailer,
         }
     }
 
+    @Override
+    public void checkTrailer() {
+        System.out.println("Проверяем прицеп грузовика" + getModelName() + ".");
+    }
 }
 
